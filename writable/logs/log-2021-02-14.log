@@ -1,0 +1,88 @@
+CRITICAL - 2021-02-14 23:38:12 --> No such file or directory
+#0 /var/www/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/User.php(15): CodeIgniter\Model->findAll()
+#5 /var/www/system/CodeIgniter.php(914): App\Controllers\User->index()
+#6 /var/www/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /var/www/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-14 23:38:45 --> No such file or directory
+#0 /var/www/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/User.php(15): CodeIgniter\Model->findAll()
+#5 /var/www/system/CodeIgniter.php(914): App\Controllers\User->index()
+#6 /var/www/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /var/www/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-14 23:43:13 --> No such file or directory
+#0 /var/www/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/User.php(15): CodeIgniter\Model->findAll()
+#5 /var/www/system/CodeIgniter.php(914): App\Controllers\User->index()
+#6 /var/www/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /var/www/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-14 23:43:15 --> No such file or directory
+#0 /var/www/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/User.php(15): CodeIgniter\Model->findAll()
+#5 /var/www/system/CodeIgniter.php(914): App\Controllers\User->index()
+#6 /var/www/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /var/www/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-14 23:43:17 --> No such file or directory
+#0 /var/www/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/User.php(15): CodeIgniter\Model->findAll()
+#5 /var/www/system/CodeIgniter.php(914): App\Controllers\User->index()
+#6 /var/www/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /var/www/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-14 23:43:57 --> No such file or directory
+#0 /var/www/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/User.php(15): CodeIgniter\Model->findAll()
+#5 /var/www/system/CodeIgniter.php(914): App\Controllers\User->index()
+#6 /var/www/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /var/www/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-14 23:51:22 --> No such file or directory
+#0 /var/www/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/User.php(15): CodeIgniter\Model->findAll()
+#5 /var/www/system/CodeIgniter.php(914): App\Controllers\User->index()
+#6 /var/www/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /var/www/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-02-14 23:52:23 --> No such file or directory
+#0 /var/www/system/Database/BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/system/Database/BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/system/Database/BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /var/www/system/Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 /var/www/app/Controllers/User.php(15): CodeIgniter\Model->findAll()
+#5 /var/www/system/CodeIgniter.php(914): App\Controllers\User->index()
+#6 /var/www/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 /var/www/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

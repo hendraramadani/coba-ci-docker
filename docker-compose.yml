@@ -1,0 +1,63 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql
+    container_name: btif-monitor-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: btif-monitor
+      MYSQL_USER : root
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./docker/mysql/data:/var/lib/mysql/
+      - ./docker/mysql/logs:/var/log/mysql/
+    ports:
+      - 3306:3306
+    networks:
+      - btif-monitor-network
+
+  php_fpm:
+    build:
+      context: ./
+      dockerfile: ./docker/php/Dockerfile
+    working_dir: /var/www/
+    container_name: btif-monitor-backend
+    volumes:
+      - .:/var/www
+    depends_on:
+      - mysql
+    networks:
+      - btif-monitor-network
+
+  nginx:
+    image: nginx:latest
+    container_name: btif-monitor-nginx
+    volumes:
+      - ./docker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+      - .:/var/www/
+    depends_on:
+      - php_fpm
+      - mysql
+    ports:
+      - 1010:80
+    networks:
+      - btif-monitor-network
+
+  btif-monitor-phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: btif-monitor-phpmyadmin
+    environment:
+      PMA_HOST: btif-monitor-mysql
+      PMA_PORT: 3306
+    ports:
+      - 3300:80
+    volumes:
+      - ./docker/phpmyadmin/sessions:/sessions
+    networks:
+      - btif-monitor-network
+
+networks:
+  btif-monitor-network:
+    driver: bridge
